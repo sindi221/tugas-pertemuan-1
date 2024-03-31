@@ -1,53 +1,91 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+
+const goToHome = () => {
+  alert("Ini adalah tombol home");
+}
+
+const goToAbout = () => {
+  alert("Ini adalah tombol about");
+}
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/PAGE.SINDY-removebg-preview.png" width="250" height="250" />
+  <div class="container">
+    <img alt="Vue logo" class="logo" src="./assets/PAGE.SINDY-removebg-preview.png" width="400" height="400" />
 
-    <div class="wrapper">
+    <div class="content">
       <HelloWorld msg="You did it!" />
+      <p class="about">Halo teman, nama saya Sindi. Saya berasal dari Tapung Hilir. 😘</p>
     </div>
+    <br><br>
 
-    <text class="about">Halo guys nama aku Sindi loh, dari tapung hilir 😘😘</text>
-  </header>
+    <nav>
+      <ul>
+        <button @click="goToHome">Home</button>
+        <button @click="goToAbout">About</button>
+      </ul>
+    </nav>
+    <br><br>
 
-  <main>
-    <TheWelcome />
-  </main>
+    <TheWelcome/>
+  </div>
 </template>
 
 <style scoped>
-.about {
-  text-align: center;
-  color: purple;
-}
-header {
-  line-height: 1.5;
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: auto; 
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+.content {
+  margin-top: 20px;
+  margin: auto; 
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+.about {
+  font-size: 18px;
+  font-style: italic;
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.menu-item {
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  margin-left: 50px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff00c8;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
 </style>

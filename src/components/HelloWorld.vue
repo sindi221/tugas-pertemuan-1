@@ -1,3 +1,5 @@
 <template>
-<h1>SINDI</h1>
-</template>
+    <h1 class="title">SINDI MAHARANI</h1>
+  </template>
+
+  
