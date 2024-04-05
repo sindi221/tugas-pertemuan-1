@@ -1,10 +1,10 @@
 <template>
   <header>
     <div class="wrapper">
-        <img src="/src/assets/PAGE.SINDY-removebg-preview.png" alt="">
+      <img src="@/assets/page.farhan.png" alt="">
     </div>
 
-    <text class="about">Halo guys nama aku Sindi, aku berasal dari tapung hilir 😘😘</text>
+    <text class="about">SELAMAT DATANG!</text>
     </header>
     </template>
     

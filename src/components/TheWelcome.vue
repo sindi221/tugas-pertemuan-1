@@ -17,9 +17,11 @@ import SupportIcon from './icons/IconSupport.vue'
     Saat ini saya kuliah di salah satu Kampus swasta di Riau yaitu
     <a href="https://uir.ac.id/" target="_blank" rel="noopener">Universitas Islam Riau</a>
     .
-    Sebelumnya saya bersekolah di SMA NEGERI
-    <a href="https://www.smkakbar.sch.id/profil-sekolah" target="_blank" rel="noopener">SMA NEGERI SATU TAPUNG HILIR</a>
+    Sebelumnya saya bersekolah di SMA SWASTA
+    <a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/ED40A16D-FECF-4B27-9414-7CB5BE597DA5" target="_blank" rel="noopener">SMA MUHAMMADIYAH 1 PEKANBARU</a>
   </WelcomeItem>
+
+  
 
   <WelcomeItem>
     <template #icon>
@@ -27,14 +29,13 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Tempat, Tanggal Lahir</template>
 
-    Saya Lahir di sebuah kota kecil di Provinsi <a href="https://id.wikipedia.org/wiki/Sumatera_Utara" target="_blank" rel="noopener"
-      >RIAU</a>
-      yaitu 
-    <a href="https://id.wikipedia.org/wiki/Dolok_Masihul,_Serdang_Bedagai" target="_blank" rel="noopener"
-      >tapung hilir</a
-    >.pada tanggal
-     19 Agustus 2004
-    
+    Saya Lahir di Provinsi <a href="https://id.wikipedia.org/wiki/Riau#Referensi" target="_blank"
+      rel="noopener">RIAU</a>
+    yaitu
+    di kota <a href="https://id.wikipedia.org/wiki/Kota_Pekanbaru" target="_blank"
+      rel="noopener">PEKANBARU</a>.pada tanggal
+    28 Desember 2002
+
   </WelcomeItem>
 
   <WelcomeItem>
@@ -44,9 +45,9 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Jurusan</template>
 
     Prodi atau Jurusan Kuliah
-Saya mengambil Program didik Teknik Informatika atau biasa disebut IT
-    , sekarang saya berada di semester 4 dan berada di kelas paling solid yaitu
-    <a href="https://www.instagram.com/b1universe/" target="_blank" rel="noopener">b1UNIVERSE</a>
+    Saya mengambil Program studi Teknik Informatika atau biasa disebut TI
+    , sekarang saya berada di semester 4 dan berada di kelas yaitu
+    <a href="" target="_blank" rel="noopener">4G</a>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -55,17 +56,16 @@ Saya mengambil Program didik Teknik Informatika atau biasa disebut IT
     </template>
     <template #heading>Hobi</template>
 
-    Hobi saya lampirkan sebagai berikut : <br />
+    saya memiliki hobi sebagai berikut : <br />
     1.
-    <a href="https://www.youtube.com/watch?v=JKByb0QwwSY" target="_blank" rel="noopener"
-      >NGODANG(NGODING KADANG KADANG)</a
-    ><br />
-    2. <a href="https://cdn.gramedia.com/uploads/items/psychology_of_money.jpg" target="_blank" rel="noopener"
-      >Membaca Buku</a> <br/>
-    3.  <a href="https://www.instagram.com/p/C3fhehsv-AR/?igsh=ZXg1bDdhZzU2N29s" target="_blank" rel="noopener"
-      >Ngopi</a> <br/>
-    4. <a href="https://www.youtube.com/watch?v=10pvNtNoQs8&pp=ygUfYmVsYWphciBtZWxlcGFza2FuIGRpcmlueWEgcmVmZg%3D%3D" target="_blank" rel="noopener"
-      >Belajar</a> </WelcomeItem>
+    <a href="https://www.dicoding.com/blog/apa-itu-coding/" target="_blank" rel="noopener">NGODING</a><br />
+    2. <a href="https://id.m.wikipedia.org/wiki/Bulu_tangkis" target="_blank"
+      rel="noopener">BADMINTON</a> <br />
+    3. <a href="https://www.gramedia.com/literasi/olahraga-renang/" target="_blank"
+      rel="noopener">BERENANG</a> <br />
+    4. <a href="https://www.youtube.com/watch?v=10pvNtNoQs8&pp=ygUfYmVsYWphciBtZWxlcGFza2FuIGRpcmlueWEgcmVmZg%3D%3D"
+      target="_blank" rel="noopener">BERMAIN GAME</a>
+  </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
@@ -73,12 +73,20 @@ Saya mengambil Program didik Teknik Informatika atau biasa disebut IT
     </template>
     <template #heading>Social Media</template>
 
-    Saya lumayan aktif di sosial media dengan tujuan untuk meroastink orang,sarkas mencari informasi serta berkeluh kesah serta untuk hal-hal random saya sehari hari.<br />
-    Instagram = @<a href="https://www.instagram.com/sndi_maharani/" target="_blank" rel="noopener"
-      >sndi.maharani</a
-    > <br/>
-dan saya juga memliki secound akun= @<a href="https://www.instagram.com/sec.syns/" target="_blank" rel="noopener"
-      >sec.syns</a
-    >.
-  </WelcomeItem>#ff00c8
+    Saya tidak terlalu suka sosial media akun ini di buat dengan tujuan untuk memposting tugas pbk.<br />
+    Instagram = @<a href="https://www.instagram.com/mhd_farhan_/" target="_blank" rel="noopener">mhd_farhan_</a> <br />
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <CommunityIcon />
+    </template>
+    <template #heading>kontak</template>
+
+    no hp :
+    <a href="" target="_blank" rel="noopener">0813-7268-1011</a>
+    <br>
+    email :
+    <a href="" target="_blank" rel="noopener">mohdfarhansyafaat@gmail.com</a>
+  </WelcomeItem>
 </template>

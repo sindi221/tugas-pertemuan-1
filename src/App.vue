@@ -14,11 +14,10 @@ const goToAbout = () => {
 
 <template>
   <div class="container">
-    <img alt="Vue logo" class="logo" src="./assets/PAGE.SINDY-removebg-preview.png" width="400" height="400" />
-
+    <img alt="Vue logo" class="logo" src="@/assets/page.farhan.png" width="400" height="400" />
     <div class="content">
       <HelloWorld msg="You did it!" />
-      <p class="about">Halo teman, nama saya Sindi. Saya berasal dari Tapung Hilir. 😘</p>
+      <p class="about">SELAMAT DATANG!</p>
     </div>
     <br><br>
 
@@ -68,7 +67,7 @@ nav ul li {
 }
 
 nav ul li a:hover {
-  color: #007bff;
+  color: #6a00ff;
 }
 
 .menu-item {
@@ -80,12 +79,12 @@ button {
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  background-color: #ff00c8;
+  background-color: #0900b3;
   color: #fff;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0900b3;
 }
 </style>

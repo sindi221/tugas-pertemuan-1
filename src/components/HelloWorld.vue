@@ -1,5 +1,5 @@
 <template>
-    <h1 class="title">SINDI MAHARANI</h1>
+    <h1 class="title">MOHD FARHAN S</h1>
   </template>
 
   
